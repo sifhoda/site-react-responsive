@@ -42,7 +42,6 @@ function Header() {
 
     useEffect(() => {
         setHeaderElements( isFrench ? getMenuFrench() : getMenuArabic());
-        console.log(headerElements);
     }, [isFrench])
     
     
