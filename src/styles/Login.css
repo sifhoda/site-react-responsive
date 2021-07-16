@@ -1,0 +1,61 @@
+
+
+
+.content {
+    margin: 80px auto 80px;
+    width: 100%;
+}
+
+
+#loginform {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    border-left: 3px solid #f08952;
+    border-radius: 4px;
+}
+
+
+#submitButton {
+    width:70%;
+    background-color: #f08952;
+    border: none;
+    border-radius: 20px;
+}
+
+.input {
+    position: relative;
+    display:flex;
+    align-items:center;
+}
+
+.icon {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+.invalid {
+    border-color: red !important;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.captcha-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 500px){
+    #loginform {
+        width: 95%;
+    }
+}

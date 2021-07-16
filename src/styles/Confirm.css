@@ -1,0 +1,43 @@
+
+
+
+.content {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mycard {
+
+    width: 50%;
+    min-width: 250px;
+}
+
+.mycard__body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email_success {
+    width: 100px;
+    height: 100px;
+    color: green;
+}
+
+.mycard__links {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f08952;
+    border-radius: 5px;
+    color: white;
+    transition: all 250ms ease-in-out;
+}
+
+.mycard__links:hover {
+    color: white !important;
+    background-color: #4169e1;
+}
